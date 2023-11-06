@@ -13,23 +13,31 @@ The Touhou Pygame Game is a bullet-hell shooting game created using Python and P
 
 1. **Installation:**
    - Ensure you have Python installed on your system. If not, you can download it from [python.org](https://www.python.org/downloads/).
-   - Install Pygame by running `pip install pygame` in your terminal or command prompt.
 
 2. **Clone the Repository:**
-   ```
-   git clone https://github.com/chanios/project-pygame.git
-   ```
 
-3. **Run the Game:**
-   ```
-   cd project-pygame
-   python main.py
-   ```
+```sh
+git clone https://github.com/chanios/project-pygame.git
+```
 
-4. **Controls:**
-   - Use the arrow/WASD keys to move your character.
-   - Use the mouse to shoot bullets toward your cursor.
-   - Press the shift key for slower movement.
+3. **Install required packages**
+
+```sh
+cd /path/to/project-pygame
+pip install -r requirements.txt
+```
+
+4. **Run the Game:**
+
+```sh
+python main.py
+```
+
+**Controls:**
+
+- Use the arrow/WASD keys to move your character.
+- Use the mouse to shoot bullets toward your cursor.
+- Press the shift key for slower movement.
 
 ## Contributions
 
